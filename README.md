@@ -8,3 +8,7 @@ Requiring `python>=3.11`. Please install in a separate python environment, e.g. 
 ```bash
 pip install git+https://github.com/cbyrohl/LyaLab.git
 ```
+
+## Getting Started
+
+See this [introduction notebook](./notebooks/intro.ipynb).
