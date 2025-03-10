@@ -9,6 +9,8 @@ packages = [{include = "lyalab", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 scida = "^0.3.5"
+matplotlib = "^3.10.1"
+scipy = "^1.15.2"
 
 
 [tool.poetry.group.dev.dependencies]
