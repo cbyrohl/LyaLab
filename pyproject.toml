@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lyalab"
+version = "0.1.0"
+description = ""
+authors = ["Chris Byrohl <chris.byrohl@mailbox.org>"]
+readme = "README.md"
+packages = [{include = "lyalab", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scida = "^0.3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
